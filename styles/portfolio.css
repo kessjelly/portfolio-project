@@ -1,14 +1,51 @@
+:root {
+  --primary-color: #282323;
+  --secondary-color: white;
+  --font-family: "Roboto", sans-serif;
+}
+
 .hero {
+  background-color: #cccccc;
   text-align: center;
+  color: var(--secondary-color);
+ padding: clamp(3rem, 8vw, 10rem) 1rem;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
+.hero h2 {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  letter-spacing: 10%;
   font-weight: bold;
-  font-size: 72px;
+  line-height: auto;
+  margin: 0;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+.hero h1 {
+  font-weight: bold;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: auto;
+  letter-spacing: 10%;
+}
+
+.hero p {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.btn-branding {
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+  color: #272142;
+  border-color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 18px 30px;
+}
+
+.btn-branding:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
 }
