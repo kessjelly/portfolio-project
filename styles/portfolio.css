@@ -4,15 +4,19 @@
   --font-family: "Roboto", sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
 .hero {
   background-color: #cccccc;
   text-align: center;
   color: var(--secondary-color);
- padding: clamp(3rem, 8vw, 10rem) 1rem;
+  padding: clamp(3rem, 8vw, 10rem) 1rem;
 }
 
 .hero h2 {
-  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-size: 24px;
   letter-spacing: 10%;
   font-weight: bold;
   line-height: auto;
@@ -21,22 +25,24 @@
 
 .hero h1 {
   font-weight: bold;
-  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-size: 72px;
   line-height: auto;
   letter-spacing: 10%;
 }
 
 .hero p {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: 18px;
   line-height: 30px;
   font-weight: normal;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
 }
 
 .btn-branding {
   border-radius: 50px;
   background-color: var(--secondary-color);
   color: #272142;
-  border-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -48,4 +54,50 @@
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+}
+.project p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.btn-project {
+ border-radius: 50px;
+  background-color: var(--secondary-color);
+  color: #272142;
+  border: 2px solid var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 18px 30px;
+}
+
+@media (max-width: 900px) {
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+  };
 }
