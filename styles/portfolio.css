@@ -61,6 +61,10 @@ h1 {
   margin: 0 auto 2rem auto;
 }
 
+.portfolio-hero .col {
+  background: var(--primary-color);
+}
+
 .portfolio-hero {
   background-image: url("../images/bubbles.jpg");
   background-size: cover;
