@@ -23,8 +23,7 @@ body {
 
 .navbar a,
 .navbar-brand,
-.navbar-nav 
-.nav-link {
+.navbar-nav .nav-link {
   color: var(--secondary-color);
 }
 
@@ -47,7 +46,7 @@ body {
   margin: 0;
 }
 
-.hero h1 {
+h1 {
   font-weight: bold;
   font-size: 72px;
   line-height: auto;
@@ -60,6 +59,18 @@ body {
   font-weight: normal;
   max-width: 600px;
   margin: 0 auto 2rem auto;
+}
+
+.portfolio-hero {
+  background-image: url("../images/bubbles.jpg");
+  background-size: cover;
+  text-align: center;
+  color: var(--secondary-color);
+  padding: clamp(3rem, 8vw, 10rem) 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 50dvh;
 }
 
 .btn-branding {
@@ -88,7 +99,7 @@ p {
   font-size: 18px;
   font-weight: normal;
 }
-.project p {
+h4 {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
@@ -105,12 +116,11 @@ p {
   padding: 18px 30px;
 }
 
-
 @media (max-width: 900px) {
   .hero h2 {
     font-size: 20px;
   }
-  .hero h1 {
+  h1 {
     font-size: 40px;
   }
   .hero p {
