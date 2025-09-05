@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .hero {
   background-color: #cccccc;
   text-align: center;
