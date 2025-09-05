@@ -1,10 +1,14 @@
 :root {
-  --primary-color: #282323;
+  --primary-color: #7284fc;
   --secondary-color: white;
   --font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
 }
 
@@ -13,17 +17,32 @@ body {
   color: var(--secondary-color);
 }
 
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar a,
+.navbar-brand,
+.navbar-nav 
+.nav-link {
+  color: var(--secondary-color);
+}
+
 .hero {
-  background-color: #cccccc;
+  background-image: url("../images/bubbles.jpg");
+  background-size: cover;
   text-align: center;
   color: var(--secondary-color);
   padding: clamp(3rem, 8vw, 10rem) 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100dvh;
 }
 
 .hero h2 {
   font-size: 24px;
   letter-spacing: 10%;
-  font-weight: bold;
   line-height: auto;
   margin: 0;
 }
@@ -36,7 +55,7 @@ body {
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: normal;
   max-width: 600px;
@@ -45,9 +64,9 @@ body {
 
 .btn-branding {
   border-radius: 50px;
-  background-color: var(--secondary-color);
-  color: #272142;
-  border: 2px solid var(--primary-color);
+  background-color: none;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -76,7 +95,7 @@ p {
 }
 
 .btn-project {
- border-radius: 50px;
+  border-radius: 50px;
   background-color: var(--secondary-color);
   color: #272142;
   border: 2px solid var(--primary-color);
@@ -86,7 +105,11 @@ p {
   padding: 18px 30px;
 }
 
+
+
 @media (max-width: 900px) {
+  .hero {
+  }
   .hero h2 {
     font-size: 20px;
   }
@@ -104,5 +127,5 @@ p {
 
   p {
     font-size: 14px;
-  };
+  }
 }
