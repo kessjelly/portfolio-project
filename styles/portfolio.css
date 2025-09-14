@@ -1,7 +1,7 @@
 :root {
   --primary-color: #7284fc;
   --secondary-color: white;
-  --font-family: "Roboto", sans-serif;
+  --font-family: "montserrat", sans-serif;
 }
 
 h1,
@@ -16,7 +16,6 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-
 .navbar {
   background-color: var(--primary-color);
 }
@@ -76,7 +75,6 @@ h1 {
   width: 100%;
   min-height: 50dvh;
 }
-
 
 .hero-content {
   background-image: url("../images/bubbles.jpg");
