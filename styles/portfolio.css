@@ -5,21 +5,14 @@
   --font-family: "Inter", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  text-align: center;
-}
-
 body {
-  background-color: var(--primary-color);
+  background-color: white;
   color: var(--accent-color);
   font-family: var(--font-family);
 }
+
 .navbar {
-  background-color: white;
+  background-color: var(--primary-color);
 }
 
 .navbar img {
@@ -30,15 +23,17 @@ body {
 .navbar a,
 .navbar-brand,
 .navbar-nav .nav-link {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .hero {
-  text-align: center;
   color: var(--accent-color);
   padding: clamp(3rem, 8vw, 10rem) 1rem;
   width: 100%;
   min-height: 100dvh;
+  background-image: url("/images/undraw_proud-coder_bivp.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero h2 {
@@ -46,6 +41,7 @@ body {
   letter-spacing: 10%;
   line-height: auto;
   margin: 0;
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -61,6 +57,14 @@ h1 {
   font-weight: normal;
   max-width: 600px;
   margin: 0 auto 2rem auto;
+  color: var(--secondary-color);
+  display: inline;
+}
+
+.hero a{
+  background-color: var(--primary-color);
+  border: #fbe38b;
+
 }
 
 .hero-container .col {
@@ -178,9 +182,13 @@ h4 {
 }
 
 footer {
-  background-color: white;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem;
+}
+
+footer p {
+  color: var(--accent-color);
 }
 
 @media (max-width: 900px) {
