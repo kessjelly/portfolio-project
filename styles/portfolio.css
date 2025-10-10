@@ -86,7 +86,7 @@ body {
 }
 
 .hero-container p {
- color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .btn-project {
@@ -105,6 +105,7 @@ body {
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
+   cursor: url('/images/Untitled design.png') 0 0, auto;
 }
 
 .btn-branding {
@@ -122,6 +123,7 @@ body {
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
+   cursor: url('/images/Untitled design.png') 0 0, auto;
 }
 
 h2 {
@@ -137,7 +139,6 @@ h4 {
   font-weight: normal;
   line-height: 30px;
 }
-
 
 .hero-container {
   text-align: center;
@@ -221,6 +222,7 @@ h4 {
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
+   cursor: url('/images/Untitled design.png') 0 0, auto;
 }
 
 .email {
