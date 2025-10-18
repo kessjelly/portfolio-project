@@ -265,6 +265,16 @@ footer p {
   p {
     font-size: 14px;
   }
+  .hero-container img {
+    margin-top: 30px;
+  }
+  .hero-container .about-title {
+    width: 100%;
+  }
+  .btn-about {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
   .work-inquiry {
     padding: 2rem 1rem;
   }
@@ -274,11 +284,5 @@ footer p {
   .email {
     font-size: medium;
   }
-  .hero-container img {
-    margin-top: 30px;
-  }
 
-  .hero-container .about-title {
-    width: 100%;
-  }
 }
